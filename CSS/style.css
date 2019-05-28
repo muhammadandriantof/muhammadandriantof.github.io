@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0;}
+
+body 
+{
+	width: 1000px;
+	margin: auto;
+}
+
+header 
+{
+	width: 1000px;
+	height: 350px;
+	background-size: 100%;	
+}
+
+header img	
+{
+	width: 1000px;
+	height: 350px;
+	position: relative;
+	z-index: 1;
+	top: 0px;
+}
+
+header img h1{
+	position: absolute;
+	z-index: 2;	
+}
+menu {
+	width: 960px;
+	height: 20px;
+	background-color: #4a3131;
+	padding: 20px;	
+}
+menu li {
+	list-style: none;
+	float: left;
+	margin-right: 52px;
+	color: #b9b9b9;
+}
+menu li a{
+	text-decoration: none;
+	color: #b9b9b9;
+}
+menu li a:hover {
+	color: #f1d4d4;
+}
+.Coffee {
+	width: 100%;
+	overflow: hidden;
+	background-color: #cbb683
+}
+.Coffee h1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.Coffee h2{
+	text-align: center;	
+}
+.Coffee .Registration {
+	width: 325px;
+	float: left;
+	margin: 5px 10px 5px 5px;
+}
+.Coffee .Registration hr{
+	margin-left: 90px;
+	width: 150px;
+	border-top : 1.5px solid #777;
+}
+.Coffee .Penjelasan {
+	width: 625px;
+	float: left;
+	margin: 5px 10px 5px 5px;
+}
+.Coffee .Penjelasan hr{
+	margin-left: 263px;
+	width: 100px;
+	border-top : 1.5px solid #777 ;
+}
+.Coffee .Penjelasan img {
+	width: 250px;
+	height: 150px;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+.Coffee .Penjelasan p{
+	text-align: justify;
+}
+.Galeri table{
+	width: 1000px;
+	height: 20px;
+	background-color: #4a3131;
+	padding: 20px;
+}
+.Galeri table tr td{
+	text-align: center;
+	color: #b9b9b9;
+}
+.GaleriFoto{
+	padding-top: 15px;
+}
+.footer {
+	width: 1000px;
+	height: 20px;
+	background-color: #4a3131;
+	padding: 20px;
+	text-align: center;
+}
+.footer a{
+	text-decoration: none;
+	color: #b9b9b9;
+}
+.footer a:hover{
+	color: #f1d4d4;
+}
